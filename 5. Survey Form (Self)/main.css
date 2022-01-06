@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+body {
+  background-color: #ff8882;
+  margin: auto;
+  padding: auto;
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5rem;
+  font-size: 20px;
+}
+h1 {
+    color: #fdebe7;
+    font-weight: 800;
+  text-align: center;
+  margin: 2.5rem 0 2rem;
+}
+p {
+    color: #fdebe7;
+    font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+hr {
+  border-top: 5px line #ff8882;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin: 0 30% 0;
+}
+
+form {
+  width: 60vh;
+  max-width: 800px;
+  min-width: 600px;
+  margin: 0 auto;
+  padding: 1%;
+  background-color: #194350;
+  color: #fdebe7;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 0 rgba(83, 14, 14, 0.8);
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+fieldset {
+  border: none;
+  padding: 1rem 2rem 1rem;
+  border-style: none;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2.5em;
+  background-color: #fdebe7;
+  color: #194350;
+  border-radius: 5px;
+  display: block;
+  border-color: #9DBEB9;
+  padding: 0 0 0 0.75rem;
+  line-height: 1rem;
+}
+
+#inline {
+    width: 4%;
+    margin: 0 1rem 0 0;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+section{
+    padding-left: 5%;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #FFC2B4;
+    border-color: #fdebe7;
+    min-width: 300px;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 0 20px 0 rgba(44, 43, 43, 0.8);
+  }

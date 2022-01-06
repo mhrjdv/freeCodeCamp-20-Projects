@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Hotel Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>Hotel Survey Form</h1>
+    <p>Thank you for taking the time to help us improve</p>
+    <form action="">
+      <!-- * Contact Information -->
+      <fieldset class="contact-info">
+        <label>Name <input type="text" name="name" required placeholder="Enter your name" /></label>
+        <label
+          >Contact Number
+          <input
+            type="tel"
+            name="contact-number"
+            minlength="10"
+            maxlength="10"
+            required
+            placeholder="Enter your number"
+        /></label>
+        <label
+          >Email <input type="email" name="email" required placeholder="Enter your email"
+        /></label>
+      </fieldset>
+      <hr />
+      <!-- * Date of visit -->
+      <fieldset class="date-of-visit">
+        <label>Date of Visit <input type="date" name="date" required /></label>
+      </fieldset>
+      <hr />
+
+      <!-- * Service Type  -->
+      <fieldset class="service">
+        <label>
+          Choose a Cateogary
+          <select name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Food</option>
+            <option value="2">Stay</option>
+            <option value="3">Both</option>
+          </select></label
+        >
+      </fieldset>
+      <hr />
+      <fieldset>
+        <label>Most liked Service</label>
+        <section>
+        <label><input type="checkbox" name="feedback" id="inline" />Food Quality</label>
+        <label><input type="checkbox" name="feedback" id="inline" />Taste</label>
+        <label> <input type="checkbox" name="feedback" id="inline" />Staff Service</label>
+        <label><input type="checkbox" name="feedback" id="inline" />Staff Behaviour</label>
+    </section>
+      </fieldset>
+
+      <hr />
+      <!-- * Feedback -->
+      <fieldset class="feedback">
+        Feedback
+        <textarea
+          name="feedback"
+          id="feedback"
+          cols="25"
+          rows="5"
+          placeholder="Write Here..."
+        ></textarea>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+    <fieldset></fieldset>
+  </body>
+</html>
